@@ -1,0 +1,118 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.6.1,<3.7.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"458bc5f45",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "BANK ACCOUNT",
+      "BASIC SALARY",
+      "COMPANY NAME",
+      "DESIGNATION",
+      "DOB",
+      "DOJ",
+      "EMP CODE",
+      "EMP NAME",
+      "GENDER",
+      "NET SALARY",
+      "PAN NO",
+      "PF NO"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":1.0,
+    "ents_p":1.0,
+    "ents_r":1.0,
+    "ents_per_type":{
+      "COMPANY NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EMP CODE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EMP NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PF NO":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DESIGNATION":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DOB":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BANK ACCOUNT":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PAN NO":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DOJ":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "GENDER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BASIC SALARY":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "NET SALARY":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "tok2vec_loss":0.0000200162,
+    "ner_loss":0.0000351209
+  }
+}
