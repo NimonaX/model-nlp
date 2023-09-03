@@ -22,16 +22,13 @@
     ],
     "ner":[
       "BANK ACCOUNT",
-      "BASIC SALARY",
       "COMPANY NAME",
-      "DESIGNATION",
       "DOB",
       "DOJ",
       "EMP CODE",
-      "EMP NAME",
-      "GENDER",
       "NET SALARY",
       "PAN NO",
+      "PERSON",
       "PF NO"
     ]
   },
@@ -47,72 +44,77 @@
 
   ],
   "performance":{
-    "ents_f":1.0,
-    "ents_p":1.0,
-    "ents_r":1.0,
+    "ents_f":0.375,
+    "ents_p":0.3,
+    "ents_r":0.5,
     "ents_per_type":{
       "COMPANY NAME":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
+      "PERSON":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
       "EMP CODE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "EMP NAME":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
       "PF NO":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DESIGNATION":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       },
       "DOB":{
-        "p":1.0,
+        "p":0.5,
         "r":1.0,
-        "f":1.0
+        "f":0.6666666667
       },
       "BANK ACCOUNT":{
-        "p":1.0,
+        "p":0.3333333333,
         "r":1.0,
-        "f":1.0
-      },
-      "PAN NO":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+        "f":0.5
       },
       "DOJ":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "GENDER":{
-        "p":1.0,
+      "NET SALARY":{
+        "p":0.5,
         "r":1.0,
-        "f":1.0
+        "f":0.6666666667
+      },
+      "GENDER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       },
       "BASIC SALARY":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       },
-      "NET SALARY":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+      "EMP NAME":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "DESIGNATION":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "PAN NO":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       }
     },
-    "tok2vec_loss":0.0000200162,
-    "ner_loss":0.0000351209
+    "tok2vec_loss":0.000002109,
+    "ner_loss":0.0000012613
   }
 }
